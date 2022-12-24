@@ -1,4 +1,4 @@
-![IMG_20221126_205921_447](https://user-images.githubusercontent.com/103309340/209443023-84b30e3a-75c5-4f92-963c-531f7c7c98ce.jpg)
+![bd_github_readme_cover_pic](https://user-images.githubusercontent.com/103309340/209443075-a38c77e6-c440-4b68-bce6-f557a3d15de9.jpg)
 
 👩‍🎓 Barsha Das is a second-year undergrad at the Department of Computer Science & Engineering of Meghnad Saha Institute of Technology affiliated to Maulana Abul Kalam Azad University of Technology, Govt. of West Bengal.
 
