@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Portfolio/Resume Theme for Developers</title>
+    <title>Barsha Das</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,13 +20,29 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
     
     <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <link rel="stylesheet" href="dist/github-calendar-responsive.css">
     <!-- github activity css -->  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
-    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
 
+    <!-- if using dark theme add this in addition to the main CSS file -->
+    <link rel="stylesheet" href="https://unpkg.com/github-activity-feed@latest/dist/github-activity.dark.min.css">
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+	
+	
+<!-- 	addtional for feed -->
+	
+	<link rel="stylesheet" href="node_modules/octicons/build/font/octicons.css">
+<link rel="stylesheet" href="node_modules/github-activity-feed/dist/github-activity.min.css">
+
+<script type="text/javascript" src="node_modules/mustache/mustache.min.js"></script>
+<script type="text/javascript" src="node_modules/github-activity-feed/dist/github-activity.min.js"></script>
+
+<!-- if using dark theme add this in addition to the main CSS file -->
+<link rel="stylesheet" href="node_modules/github-activity-feed/dist/github-activity.dark.min.css">
+	
+<!-- 	addtional feedd end  -->
     
 </head> 
 
@@ -36,16 +52,16 @@
         <div class="container">     
 	        <div class="row align-items-center">
 			    <div class="col">         
-		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="profile image" />
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/b-face.png" alt="profile image" />
 		            <div class="profile-content">
-		                <h1 class="name">James Lee</h1>
-		                <h2 class="desc">Web App Developer</h2>   
+		                <h1 class="name">Barsha Das</h1>
+		                <h2 class="desc">🥑Developer-Evangelist:🖥️Web Development|⚙️DevOps|☁️Cloud Computing</h2>   
 		                <ul class="social list-inline">
-		                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-		                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-		                    <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt"></i></a></li>    
-		                    <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>   
-		                    <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>                
+		                    <li class="list-inline-item"><a href="https://twitter.com/thebarshablog"><i class="fab fa-twitter"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/thebarshablog/"><i class="fab fa-linkedin-in"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://github.com/TheBarshaBlog"><i class="fab fa-github-alt"></i></a></li>    
+		                    <li class="list-inline-item"><a href="https://www.twitch.tv/thebarshablog"><i class="fa-brands fa-twitch"></i></a></li>   
+		                    <li class="list-inline-item last-item"><a href="https://www.instagram.com/thebarshablog"><i class="fa-brands fa-instagram"></i></a></li>                
 		                </ul> 
 		            </div><!--//profile-->
 			    </div><!--//col-->
@@ -56,7 +72,7 @@
 							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
 						</div>
 			        </div><!--//dark-mode-switch-->
-	                <a class="btn btn-cta-primary" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>        
+	                <a class="btn btn-cta-primary" href="https://calendly.com/thebarshablog" target="_blank"><i class="fas fa-paper-plane"></i>Book a Call</a>        
 	            </div><!--//col-->
 	        </div><!--//row-->         
         </div><!--//container-->
@@ -67,10 +83,31 @@
             <div class="primary col-lg-8 col-12">
                 <section class="about section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">About Me</h2>
+                        <h2 class="heading">Who Am I?</h2>
                         <div class="content">
-                            <p>Write a brief intro about yourself. It's a good idea to include your personal interests and hobbies as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Commodo ligula eget dolor. Aenean massa.</p>
-                         
+                            <p>👩‍🎓I'm a 2nd-Year CSE UG.<br>
+
+👩‍💼 Founder, The CookieButton Project.<br>
+				    
+💼 Co-organizer, KubeHuddle Toronto 2023.<br>
+				    
+☁️ Co-organizer, Cloud Native Computing Foundation (CNCF) Kolkata.<br>
+				    
+🐦 Twitter API and Bot Developer.<br>
+
+🧢 I'll commence my tenure at Evmux, Pesto, XTag and ScoutFlo, shortly.<br>	    
+				    
+🔖Previously, I've served as a 🥑Developer Advocate Engineer at a bunch of startups and contributed extensively in the division of product and community management to numerous open-source organizations, startups, corporate houses and conventional businesses.<br>
+
+🤝Connect with me for a mutual and community-based learning journey across domains covering Full-stack Development of 🖥️ Web &📱Mobile Application, ⚙️DevOps, ☁️Cloud Computing with a special interest in cloud-native technologies,🕸️Cybersecurity and 📊Data Science!<br>
+
+✨On a side-note, I keep up with the dynamic news concerning metaverse, AR/VR and growing advancements of AI in our daily-lives.<br>
+
+🦋Fun-fact: I'm a proficient personnel in all areas of business and industry-competent in all forms of non-technical activities.<br>
+
+📌Note: I too am skilled in technical documentation, copywriting, videography,360 degree focused content creation!<br>
+				    
+📛 Oh! I was accepted to the Microoft Learn Student Ambassador Program's January 2023 Cohort and currently awaiting acceptance mails from other programs.                         
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
@@ -83,76 +120,34 @@
                             <div class="item featured text-center">
                                 
                                 <div class="featured-image has-ribbon">
-                                    <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/" target="_blank">
+                                    <a href="https://kubehuddle.com/2023/" target="_blank">
                                     <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.jpg" alt="project name" />
                                     </a>
                                     <div class="ribbon">
-                                        <div class="text">New</div>
+                                        <div class="text">LATEST</div>
                                     </div>
                                 </div>
                                 
-                                <h3 class="title mb-3"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/" target="_blank">Launch - The perfect Bootstrap template for SaaS products</a></h3>
+                                <h3 class="title mb-3"><a href="https://kubehuddle.com/2023/" target="_blank">KubeHuddle Toronto 2023</a></h3>
                                     
                                 <div class="desc text-start">                                    
-                                    <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                                    <p>KubeHuddle is a community conference where Developers, Platform Engineers, DevOps, SRE, Cloud Enthusiasts, Technical and Business Strategists come together to learn from each other, collaborate and, innovate. This conference will cover topics on:<br>
+
+📌Cloud technologies<br> 📌Cloud Native and Kubernetes<br> 📌Edge Computing<br> 📌Platform Engineering<br> 📌Technical Strategy<br> 📌Real Life Product Stories<br> 📌Humanity and Empathy Side of Tech.</p>
                                 </div><!--//desc-->         
-                                <a class="btn btn-cta-secondary" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/" target="_blank"><i class="fas fa-thumbs-up"></i> Back my project</a>                 
+                                <a class="btn btn-cta-secondary" href="https://github.com/distributethe6ix/KubeHuddleToronto" target="_blank"><i class="fas fa-thumbs-up"></i>Contribute on GitHub</a>                 
                             </div><!--//item-->
                             <hr class="divider" />
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-1.png" alt="project name" />
+                                <a class="col-md-4 col-12" href="https://github.com/The-CookieButton-Project" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-1.jpg" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank">CoderPro - Boootstrap Startup Template For Software Projects</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                    <h3 class="title"><a href="https://github.com/The-CookieButton-Project" target="_blank">The CookieButton Project- Open Source Podcast Show</a></h3>
+                                    <p class="mb-2">The CookieButton Project is an inclusive open-source organization building the world's first community-run podcast show.<br>We aim to introduce more open-source projects to drive better inclusivity in the upcoming times. </p>
+                                    <p><a class="more-link" href="https://github.com/The-CookieButton-Project" target="_blank"><i class="fas fa-external-link-alt"></i>Join Us</a></p>
                                 </div><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank">DevCard - Boootstrap Portfolio Template for Software Developers</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                             <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-3.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Instance - Boootstrap Portfolio Template for Aspiring Full Stack Developers</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-4.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">Nova Pro - Boootstrap Template for Mobile Startups</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->                            
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-5.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">DevStudio - Boootstrap Template for WebDev Agencies and Freelance Developers</a></h3>
-                                    <p class="mb-2"> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                            
+                            </div><!--//item-->        
                         </div><!--//content-->  
                     </div><!--//section-inner-->                
                 </section><!--//section-->
@@ -160,24 +155,14 @@
                 <section class="projects section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Other Projects</h2>
-                        <div class="content">
+                        <div class="content">      
                             <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank">Pillar - Free Boootstrap Resume/CV Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
+                                <h3 class="title"><a href="https://msit.edu.in/index.php/master/page/rnd" target="_blank">Project GEAR: Green Electrification Approach for Remote & Rural Areas</a> <span class="badge badge-theme">PATENT PENDING</span></h3>
+                                <p class="summary">Building the most-efficient HESS.</p>
+                                <p><a class="more-link" href="https://www.linkedin.com/in/thebarshablog/" target="_blank"><i class="fas fa-external-link-alt"></i>Learn More</a></p>
                             </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank">DevBlog - Free Boootstrap Blog Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank">Nova - Free App Landing Page Template for App Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
-                            
-                            <a class="btn btn-cta-secondary" href="#">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
+                 
+                            <a class="btn btn-cta-secondary" href="https://github.com/TheBarshaBlog">More on Barsha's GitHub <i class="fas fa-chevron-right pt-1"></i></a>
                             
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -188,17 +173,19 @@
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Co-Founder & Lead Developer - <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2022 - Present)</span></h3>
-                                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                                <h3 class="title">Founder & Chief - <span class="place"><a href="#">The CookieButton Project</a></span> <span class="year">(2022 - Present)</span></h3>
+                                <p>Building the world's first open-source/community-run podcast show.</p>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Google</a></span> <span class="year">(2019 - 2022)</span></h3>
-                                <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+                                <h3 class="title">Co-organizer - <span class="place"><a href="#">KubeHuddle Toronto</a></span> <span class="year">(2023 - 2024)</span></h3>
+                                <p>KubeHuddle is a community conference where Developers, Platform Engineers, DevOps, SRE, Cloud Enthusiasts, Technical and Business Strategists come together to learn from each other, collaborate and, innovate.This conference will cover topics on:
+
+Cloud technologies, Cloud Native and Kubernetes, Edge Computing, Platform Engineering, Technical Strategy, Real life production stories, Learning Cloud, the humanity and empathy side of tech</p>
                             </div><!--//item-->
                             
                             <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">eBay</a></span> <span class="year">(2018 - 2019)</span></h3>
-                                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <h3 class="title">Product Manager - <span class="place"><a href="#">Scoar</a></span> <span class="year">(2020 - 2022)</span></h3>
+                                <p>Scoar is a mentorship platform that connects the students and young professionals with experienced mentors. The mentors on Scoar are verified by their experience attending top tier universities, working across Fortune 500 companies, or by founding their own startups.</p>
                             </div><!--//item-->
                             
                         </div><!--//content-->  
@@ -206,7 +193,7 @@
                 </section><!--//section-->
                 <section class="github section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">My GitHub</h2>
+                        <h2 class="heading">Barsha's GitHub</h2>
                         <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
                         
                         <div id="github-graph" class="github-graph">
@@ -215,7 +202,16 @@
 
                         <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.        
                         <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->                       
-                        <div id="ghfeed" class="ghfeed">
+                        <div id="feed" class="ghfeed">
+<!-- 				feed code  js  -->
+				<script>
+					GitHubActivity.feed({
+  username: "thebarshablog",
+  repository: "thebarshablog.github.io", // optional
+  selector: "#feed",
+  limit: 20, // optional
+});
+				</script>
                         </div><!--//ghfeed-->
                         
                     </div><!--//secton-inner-->
@@ -227,9 +223,9 @@
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>San Francisco, US</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">jameslee@website.com</a></li>
-                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://www.website.com</a></li>
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Republic of India</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:thebarshablog@gmail.com">barsha@thebarshablog.com</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://bio.link/thebarshablog">thebarshablog.com</a></li>
                             </ul>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -240,12 +236,12 @@
                         <h2 class="heading">Skills</h2>
                         <div class="content">
                             <p class="intro">
-                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Github profile so people can get more info there.</p>
+                                Besides being proficient in the languages below, I hold equal level of proficiency in the languages and frameworks actively used in my domain.</p>
                             
                             <div class="skillset">
                                
                                 <div class="item">
-                                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <h3 class="level-title">C &amp; C++<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
 
                                     <div class="level-bar progress">
 									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
@@ -253,27 +249,28 @@
                                 </div><!--//item-->
                                 
                                 <div class="item">
-                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <h3 class="level-title">Python &amp; Java<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
                                     <div class="level-bar progress">
 									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 94%" aria-valuenow="94"  aria-valuemin="0" aria-valuemax="94"></div>
 									</div><!--//level-bar-->                                   
                                 </div><!--//item-->
                                 
                                 <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <h3 class="level-title">Golang &amp; Swift<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
                                     <div class="level-bar progress">
 									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="96"></div>
 									</div><!--//level-bar-->                                  
                                 </div><!--//item-->
                                 
                                 <div class="item">
-                                    <h3 class="level-title">Ruby on Rails<span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <h3 class="level-title">Rust, Kotlin, Dart<span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
                                     <div class="level-bar progress">
 									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 86%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="96"></div>
 									</div><!--//level-bar-->                                  
                                 </div><!--//item-->
                                 
-                                <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+                                <p><a class="more-link" href="https://github.com/TheBarshaBlog"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+				     <p><a class="more-link" href="https://www.linkedin.com/in/thebarshablog/"><i class="fas fa-external-link-alt"></i>More on LinkedIn</a></p> 
                             </div>              
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -285,12 +282,13 @@
                         <div class="content">
                             <div class="item">
                                 <blockquote class="quote">                                  
-                                    <p><i class="fas fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
+                                    <p><i class="fas fa-quote-left"></i>Barsha and I worked at Script Productions for a couple of months. If I were to describe her in a word or two, I’d say she’s, ‘ridiculously efficient’. She is fun to work with, and extremely driven.
+Barsha would be an asset to any team. </p>
                                 </blockquote>                
-                                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                             
+                                <p class="source"><span class="name">Vasundhara Mazumdar</span><br /><span class="title">Citi Group</span></p>                                                             
                             </div><!--//item-->
                             
-                            <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
+                            <p><a class="more-link" href="https://www.linkedin.com/in/thebarshablog/"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
                             
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -301,12 +299,12 @@
                         <h2 class="heading">Education</h2>
                         <div class="content">
                             <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> MSc Computer Science</h3>
-                                <h4 class="university">University College London <span class="year">(2017-2018)</span></h4>
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> B.Tech Computer Science</h3>
+                                <h4 class="university">West Bengal University of Technology<span class="year">(2021-2025)</span></h4>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc Computer Science</h3>
-                                <h4 class="university">University of Bristol <span class="year">(2013-2017)</span></h4>
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i>High School Diploma Computer Science</h3>
+                                <h4 class="university">Carmel Convent<span class="year">(2013-2021)</span></h4>
                             </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -322,9 +320,13 @@
                                     <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
                                 </li><!--//item-->
                                 <li class="item">
-                                    <span class="title"><strong>Spanish:</strong></span>
+                                    <span class="title"><strong>Italian:</strong></span>
                                     <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
                                 </li><!--//item-->
+				    <li class="item">
+                                    <span class="title"><strong>Hindi:</strong></span>
+                                    <span class="level">Professional Proficiency<br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                                </li>
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -340,27 +342,28 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
-                <aside class="list music aside section">
+               <aside class="list music aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Favourite coding music</h2>
+                        <h2 class="heading">Most listened Coding Music</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">Ut sollicitudin in mauris non auctor</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://open.spotify.com/track/4NZrZgrRoR4GwR7flWOXRI?si=0fd5ba4c69724895">Go Fuck Yourself</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://open.spotify.com/track/0wm2hhtpRDtidodGobkttG?si=24597e6ec7c942f7">Smoke and Mirrors</a></li>
+                             <!--   <li><i class="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li> <!--//Spot for song 3-->
+                              <!--  <li><i class="fas fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li> <!--//Spot for song 4-->
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
-                </aside><!--//section-->
+                  </aside><!--//section-->    
+	 
                 
                 <aside class="list conferences aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Conferences</h2>
+                        <h2 class="heading">Latest Conferences</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="far fa-calendar-alt"></i> <a href="#" target="_blank">WWDC 2030</a> (San Francisco)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="#">Hive</a> (Seattle)</li>
+                                <li><i class="far fa-calendar-alt"></i> <a href="https://www.linkedin.com/posts/thebarshablog_devfestkol-devfestkol-devfest2022-activity-6997794758089691136-EHh-?utm_source=share&utm_medium=member_desktop" target="_blank">DevFest Kolkata </a> (India)</li>
+                                <li><i class="far fa-calendar-alt"></i> <a href="https://www.linkedin.com/posts/thebarshablog_web3community-coindcx-coworkingspace-activity-6999805831969968128-pRhT?utm_source=share&utm_medium=member_desktop">Women In Web3 </a> (India)</li>
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -368,32 +371,26 @@
                 
                 <aside class="credits aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Credits</h2>
+                        <h2 class="heading">CFPs for 2023</h2>
                         <div class="content">
                             <ul class="list-unstyled pb-2">
-                                <li><a href="https://getbootstrap.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Bootstrap</a></li>
-                                <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fas fa-external-link-alt"></i>FontAwesome</a></li>
-                                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Calendar Plugin</a></li>
-                                
-                                <li><a href="https://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Activity Stream</a></li>
-                                
-                                <li><a href="https://github.com/sdepold/vanilla-rss" target="_blank"><i class="fas fa-external-link-alt"></i>Vanilla RSS</a></li>
-                                <li><a href="https://github.com/coliff/dark-mode-switch"><i class="fas fa-external-link-alt"></i>Dark Mode Switch</a></li>
-                                
+                                <li><a href="https://events.linuxfoundation.org/open-source-summit-north-america/program/cfp/" target="_blank"><i class="fas fa-external-link-alt"></i>Open Source Summit North America</a></li>
+                                <li><a href="https://kubehuddle.com/2023/" target="_blank"><i class="fas fa-external-link-alt"></i>KubeHuddle 2023</a></li>
+                                <li><a href="https://events.linuxfoundation.org/open-source-summit-europe/" target="_blank"><i class="fas fa-external-link-alt"></i>Open Source Summit Europe</a></li>      
                             </ul>
                             
                             <hr/>
                             
-                             <p class="pt-2">This Boootstrap portfolio template is handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a> at <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> as long as you keep the footer attribution link.</p>
-                             <p>If you’d like to <strong>use this template without the attribution link</strong>, you can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank">buy the commercial license</a>.</p>
+                             <p class="pt-2">Barsha is currently busy working across multiple time zones organizing<a href="https://kubehuddle.com/2023/" target="_blank"> KubeHuddle Toronto 2023</a> and studying for upcoming semester exams at<a href="https://msit.edu.in/" target="_blank"> MSIT</a></p>
+                             <p>Want to catch up with her?<strong> Book an invite after March 15</strong> at<a href="https://calendly.com/thebarshablog" target="_blank"> Fix a call with Barsha</a>.</p>
                              
-                             <a class="btn btn-cta-primary btn-download" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/" target="_blank"><i class="fas fa-download"></i> I want to download</a>
+                             <a class="btn btn-cta-primary btn-download" href="https://bio.link/thebarshablog" target="_blank"><i class="fas fa-download"></i>Stay CONNECTED</a>
                             <hr/>
-                            <h5 class="subheading pt-3">Want more free Bootstrap themes and templates?</h5>
-                            <p>Check out our <a href="https://themes.3rdwavemedia.com/bootstrap-templates/free/">collection of free themes and templates.</a></p>
-                            <p>Follow <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying</a> on twitter so you don't miss any future freebies!</p> 
+                            <h5 class="subheading pt-3">Have something for Barsha?</h5>
+                            <p>Send her a<a href="mailto:thebarshablog@gmail.com"> message</a>.</p>
+                            <p>Check the place Barsha regularly visits:<a href="https://mobile.twitter.com/thebarshablog" target="_blank"> Tap to visit</a> so that you can catch up with her ANYTIME!</p> 
                             
-                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fab fa-twitter"></i> Follow on twitter</a>
+                            <a class="btn btn-cta-secondary btn-follow" href="https://mobile.twitter.com/thebarshablog" target="_blank"><i class="fab fa-twitter"></i>Follow on twitter</a>
                             
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -407,7 +404,7 @@
     <footer class="footer">
         <div class="container text-center">
                 <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+                <small class="copyright">Curated with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank"> Barsha</a></small>
         </div><!--//container-->
     </footer><!--//footer-->
  
@@ -447,11 +444,11 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
      }
   }).then(r => r.text())
 </script>
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+   <!-- github activity plugin -->
+     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/main.js"></script>  
 </body>
 </html> 
 
