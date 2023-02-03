@@ -29,6 +29,20 @@
     <link rel="stylesheet" href="https://unpkg.com/github-activity-feed@latest/dist/github-activity.dark.min.css">
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+	
+	
+<!-- 	addtional for feed -->
+	
+	<link rel="stylesheet" href="node_modules/octicons/build/font/octicons.css">
+<link rel="stylesheet" href="node_modules/github-activity-feed/dist/github-activity.min.css">
+
+<script type="text/javascript" src="node_modules/mustache/mustache.min.js"></script>
+<script type="text/javascript" src="node_modules/github-activity-feed/dist/github-activity.min.js"></script>
+
+<!-- if using dark theme add this in addition to the main CSS file -->
+<link rel="stylesheet" href="node_modules/github-activity-feed/dist/github-activity.dark.min.css">
+	
+<!-- 	addtional feedd end  -->
     
 </head> 
 
@@ -188,7 +202,16 @@ Cloud technologies, Cloud Native and Kubernetes, Edge Computing, Platform Engine
 
                         <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.        
                         <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->                       
-                        <div id="ghfeed" class="ghfeed">
+                        <div id="feed" class="ghfeed">
+<!-- 				feed code  js  -->
+				<script>
+					GitHubActivity.feed({
+  username: "bhebarshablog",
+  repository: "thebarshablog.github.io", // optional
+  selector: "#feed",
+  limit: 20, // optional
+});
+				</script>
                         </div><!--//ghfeed-->
                         
                     </div><!--//secton-inner-->
