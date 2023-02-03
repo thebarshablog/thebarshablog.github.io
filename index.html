@@ -196,7 +196,7 @@ Cloud technologies, Cloud Native and Kubernetes, Edge Computing, Platform Engine
                         <h2 class="heading">Barsha's GitHub</h2>
                         <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
                         
-                        <div id="github-calendar" class="github-calendar">
+                        <div id="github-graph" class="github-graph">
 				<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 </script>
 
@@ -230,7 +230,13 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
 
                         <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.        
                         <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->                       
-                        <div id="feed" class="ghfeed">
+                        <div id="feed" class="feed">
+				GitHubActivity.feed({
+  username: "thebarshablog",
+  repository: "thebarshablog.github.io", // optional
+  selector: "#feed",
+  limit: 20, // optional
+});
                         </div><!--//ghfeed-->
                    </div><!--//secton-inner-->
                 </section><!--//section-->
